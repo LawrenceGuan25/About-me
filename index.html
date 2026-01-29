@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawrence Guan | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=Space+Grotesk:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<canvas id="rainCanvas"></canvas>
+
+<header id="home">
+    <div class="hero-card">
+        <span class="tag">BPSU MAIN // 2026</span>
+        <h1 class="glowing-name">LAWRENCE GUAN</h1>
+        <p class="hero-sub">BSIT Student | Song Lover & Gamer</p>
+    </div>
+</header>
+
+<nav>
+    <div class="nav-pills">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<main>
+    <section id="about">
+        <div class="glass-container">
+            <div class="profile-circle">
+                <img src="profile.jpg" alt="Lawrence Guan" class="profile-img">
+                <div class="orbit-dot"></div>
+            </div>
+            <h2>About Me</h2>
+            <p>Hi! I'm Lawrence Guan, a BSIT student from Hermosa, Bataan. I love exploring new technologies, building small programs, 
+        and creating aesthetic designs for fun. I enjoy playing video games, watching anime, and helping others with tech problems.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="glass-container">
+            <h2>Skills</h2>
+            <div class="skill-grid">
+                <div class="skill-pill">HTML & CSS</div>
+                <div class="skill-pill">Java / C#</div>
+                <div class="skill-pill">Web Design</div>
+                <div class="skill-pill">Excel</div>
+                <div class="skill-pill">Problem Solving</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="glass-container">
+            <h2>Project</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Personal Portfolio</h3>
+                    <p>Designed a highly interactive web profile using CSS Glassmorphism, custom animations, and Canvas API.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Application Logic</h3>
+                    <p>Developing core functions in Java and C# to solve academic programming challenges and system logic.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Web Design</h3>
+                    <p>Creating visually appealing and user-friendly web pages using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-item"> 
+                    <h3>Data Management</h3>
+                    <p>Utilizing Microsoft Excel for data organization, analysis, and visualization in various projects.</p>
+                </div>
+                <div class="project-item"> 
+                    <h3>Excel analysis</h3>
+                    <p>Using Excel to analyze datasets and generate reports for academic and personal projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="glass-container">
+            <h2>Connect_Nodes</h2>
+            <div class="Contact">
+                <p>Email: <a href="lcguan24@bpsu.edu.ph" class="contact-link">lcguan24@bpsu.edu.ph</a></p>
+                <p>Facebook: <a href="https://www.facebook.com/lawrence.guan.16/" target="_blank" class="contact-link">facebook.com/lawrenceguan</a></p>
+                <p>GitHub: <a href="https://github.com/LawrenceGuan25" target="_blank" class="contact-link">github.com/LawrenceGuan25</a></p>
+                <p>LinkedIn: <a href="https://www.instagram.com/rence_guan/" target="_blank" class="contact-link">instagram.com/rence_guan/</a></p>
+                <p>Discord: <a href="https://discord.com/channels/@hanni1125" target="_blank" class="contact-link">Hanni</a></p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<div class="audio-widget">
+    <button id="music-toggle">
+        <div class="wave-icon">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </div>
+        <p id="music-status">PLAY THIS SONG</p>
+    </button>
+</div>
+
+<audio id="bg-music" loop>
+    <source src="C:\xampp\htdocs\About me\love lofi.mp3" type="audio/mpeg">
+</audio>
+
+<footer>
+    <p>© 2026 LAWRENCE GUAN // BSIT-NW2C </p>
+</footer>
+
+</body>
+</html>
